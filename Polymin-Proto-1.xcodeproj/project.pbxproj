@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D74C57FAF13AEC1F26FA3F /* Pods_Polymin_Proto_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF3B0DB4F619BF1120989ED /* Pods_Polymin_Proto_1.framework */; };
+		36457B6D21A2151A00ECA5BE /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36457B6C21A2151A00ECA5BE /* Unit.swift */; };
+		3690E66121A219660014848F /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3690E66021A219660014848F /* Store.swift */; };
+		36C1BBF22172632E00ECB55D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1BBF12172632E00ECB55D /* AppDelegate.swift */; };
+		36C1BBF42172632E00ECB55D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C1BBF32172632E00ECB55D /* art.scnassets */; };
+		36C1BBF62172632E00ECB55D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1BBF52172632E00ECB55D /* MainViewController.swift */; };
+		36C1BBF92172632E00ECB55D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1BBF72172632E00ECB55D /* Main.storyboard */; };
+		36C1BBFB2172633000ECB55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C1BBFA2172633000ECB55D /* Assets.xcassets */; };
+		36C1BBFE2172633000ECB55D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1BBFC2172633000ECB55D /* LaunchScreen.storyboard */; };
+		36C1BC092172633100ECB55D /* Polymin_Proto_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1BC082172633100ECB55D /* Polymin_Proto_1Tests.swift */; };
+		36C1BC142172633100ECB55D /* Polymin_Proto_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1BC132172633100ECB55D /* Polymin_Proto_1UITests.swift */; };
+		36C1BC222172649700ECB55D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1BC212172649700ECB55D /* Node.swift */; };
+		36C1BC24217269D100ECB55D /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1BC23217269D100ECB55D /* Connection.swift */; };
+		36C1BC2621726D3800ECB55D /* Matrix+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1BC2521726D3800ECB55D /* Matrix+Extensions.swift */; };
+		36ECC1FB21800A200027609B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECC1FA21800A200027609B /* Constants.swift */; };
+		36FD8F3C21A4679600E9B079 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD8F3B21A4679600E9B079 /* Actions.swift */; };
+		93F03038921E2744AC16FBBF /* Pods_Polymin_Proto_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717FCAD3A360078A7DB60283 /* Pods_Polymin_Proto_1Tests.framework */; };
+		CA284CB800287E613CFC9948 /* Pods_Polymin_Proto_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A7C52AEF419A5BD6C1B2A6 /* Pods_Polymin_Proto_1UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C1BC052172633100ECB55D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C1BBE62172632E00ECB55D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C1BBED2172632E00ECB55D;
+			remoteInfo = "Polymin-Proto-1";
+		};
+		36C1BC102172633100ECB55D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C1BBE62172632E00ECB55D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C1BBED2172632E00ECB55D;
+			remoteInfo = "Polymin-Proto-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BD37A1699A0CD5D23D6243B /* Pods-Polymin-Proto-1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymin-Proto-1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polymin-Proto-1Tests/Pods-Polymin-Proto-1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		36457B6C21A2151A00ECA5BE /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		3690E66021A219660014848F /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		36C1BBEE2172632E00ECB55D /* Polymin-Proto-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polymin-Proto-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C1BBF12172632E00ECB55D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36C1BBF32172632E00ECB55D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		36C1BBF52172632E00ECB55D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		36C1BBF82172632E00ECB55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36C1BBFA2172633000ECB55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36C1BBFD2172633000ECB55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36C1BBFF2172633000ECB55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C1BC042172633000ECB55D /* Polymin-Proto-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polymin-Proto-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C1BC082172633100ECB55D /* Polymin_Proto_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymin_Proto_1Tests.swift; sourceTree = "<group>"; };
+		36C1BC0A2172633100ECB55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C1BC0F2172633100ECB55D /* Polymin-Proto-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polymin-Proto-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C1BC132172633100ECB55D /* Polymin_Proto_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymin_Proto_1UITests.swift; sourceTree = "<group>"; };
+		36C1BC152172633100ECB55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C1BC212172649700ECB55D /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		36C1BC23217269D100ECB55D /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		36C1BC2521726D3800ECB55D /* Matrix+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Matrix+Extensions.swift"; sourceTree = "<group>"; };
+		36ECC1F5218007310027609B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		36ECC1FA21800A200027609B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		36FD8F3B21A4679600E9B079 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		68A7C52AEF419A5BD6C1B2A6 /* Pods_Polymin_Proto_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polymin_Proto_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717FCAD3A360078A7DB60283 /* Pods_Polymin_Proto_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polymin_Proto_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8E809244CBD20B370BD022 /* Pods-Polymin-Proto-1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymin-Proto-1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polymin-Proto-1UITests/Pods-Polymin-Proto-1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D8E96437DFF802844D581F6 /* Pods-Polymin-Proto-1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymin-Proto-1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polymin-Proto-1Tests/Pods-Polymin-Proto-1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		85DD089667DEA95495E71B2B /* Pods-Polymin-Proto-1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymin-Proto-1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polymin-Proto-1UITests/Pods-Polymin-Proto-1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88AE076E0EBA226E68BEF09D /* Pods-Polymin-Proto-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymin-Proto-1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polymin-Proto-1/Pods-Polymin-Proto-1.release.xcconfig"; sourceTree = "<group>"; };
+		CAF3B0DB4F619BF1120989ED /* Pods_Polymin_Proto_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polymin_Proto_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFBAC4312D91078B6954992 /* Pods-Polymin-Proto-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymin-Proto-1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polymin-Proto-1/Pods-Polymin-Proto-1.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C1BBEB2172632E00ECB55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D74C57FAF13AEC1F26FA3F /* Pods_Polymin_Proto_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C1BC012172633000ECB55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F03038921E2744AC16FBBF /* Pods_Polymin_Proto_1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C1BC0C2172633100ECB55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA284CB800287E613CFC9948 /* Pods_Polymin_Proto_1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3690E65D21A219380014848F /* State */ = {
+			isa = PBXGroup;
+			children = (
+				3690E66021A219660014848F /* Store.swift */,
+				36FD8F3B21A4679600E9B079 /* Actions.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		3690E66221A21C5C0014848F /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				36457B6C21A2151A00ECA5BE /* Unit.swift */,
+				36C1BC23217269D100ECB55D /* Connection.swift */,
+				36C1BC212172649700ECB55D /* Node.swift */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		36C1BBE52172632E00ECB55D = {
+			isa = PBXGroup;
+			children = (
+				36C1BBF02172632E00ECB55D /* Polymin-Proto-1 */,
+				36C1BC072172633100ECB55D /* Polymin-Proto-1Tests */,
+				36C1BC122172633100ECB55D /* Polymin-Proto-1UITests */,
+				36C1BBEF2172632E00ECB55D /* Products */,
+				3CF951FAAC133FB730A9CC44 /* Pods */,
+				9FDC634FDF69C3C47ABDABAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36C1BBEF2172632E00ECB55D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C1BBEE2172632E00ECB55D /* Polymin-Proto-1.app */,
+				36C1BC042172633000ECB55D /* Polymin-Proto-1Tests.xctest */,
+				36C1BC0F2172633100ECB55D /* Polymin-Proto-1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C1BBF02172632E00ECB55D /* Polymin-Proto-1 */ = {
+			isa = PBXGroup;
+			children = (
+				36C1BBF12172632E00ECB55D /* AppDelegate.swift */,
+				3690E65D21A219380014848F /* State */,
+				36ECC1F3218007220027609B /* Views */,
+				36ECC1F2218007150027609B /* Components */,
+				36ECC1F42180072D0027609B /* Managers */,
+				36ECC1F921800A150027609B /* Extensions+Constants */,
+				36C1BBF72172632E00ECB55D /* Main.storyboard */,
+				36C1BBFA2172633000ECB55D /* Assets.xcassets */,
+				36C1BBF32172632E00ECB55D /* art.scnassets */,
+				36C1BBFC2172633000ECB55D /* LaunchScreen.storyboard */,
+				36C1BBFF2172633000ECB55D /* Info.plist */,
+			);
+			path = "Polymin-Proto-1";
+			sourceTree = "<group>";
+		};
+		36C1BC072172633100ECB55D /* Polymin-Proto-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36C1BC082172633100ECB55D /* Polymin_Proto_1Tests.swift */,
+				36C1BC0A2172633100ECB55D /* Info.plist */,
+			);
+			path = "Polymin-Proto-1Tests";
+			sourceTree = "<group>";
+		};
+		36C1BC122172633100ECB55D /* Polymin-Proto-1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				36C1BC132172633100ECB55D /* Polymin_Proto_1UITests.swift */,
+				36C1BC152172633100ECB55D /* Info.plist */,
+			);
+			path = "Polymin-Proto-1UITests";
+			sourceTree = "<group>";
+		};
+		36ECC1F2218007150027609B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3690E66221A21C5C0014848F /* Unit */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		36ECC1F3218007220027609B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36C1BBF52172632E00ECB55D /* MainViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36ECC1F42180072D0027609B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				36ECC1F5218007310027609B /* SoundManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		36ECC1F921800A150027609B /* Extensions+Constants */ = {
+			isa = PBXGroup;
+			children = (
+				36ECC1FA21800A200027609B /* Constants.swift */,
+				36C1BC2521726D3800ECB55D /* Matrix+Extensions.swift */,
+			);
+			path = "Extensions+Constants";
+			sourceTree = "<group>";
+		};
+		3CF951FAAC133FB730A9CC44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFFBAC4312D91078B6954992 /* Pods-Polymin-Proto-1.debug.xcconfig */,
+				88AE076E0EBA226E68BEF09D /* Pods-Polymin-Proto-1.release.xcconfig */,
+				7D8E96437DFF802844D581F6 /* Pods-Polymin-Proto-1Tests.debug.xcconfig */,
+				1BD37A1699A0CD5D23D6243B /* Pods-Polymin-Proto-1Tests.release.xcconfig */,
+				85DD089667DEA95495E71B2B /* Pods-Polymin-Proto-1UITests.debug.xcconfig */,
+				7A8E809244CBD20B370BD022 /* Pods-Polymin-Proto-1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FDC634FDF69C3C47ABDABAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF3B0DB4F619BF1120989ED /* Pods_Polymin_Proto_1.framework */,
+				717FCAD3A360078A7DB60283 /* Pods_Polymin_Proto_1Tests.framework */,
+				68A7C52AEF419A5BD6C1B2A6 /* Pods_Polymin_Proto_1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C1BBED2172632E00ECB55D /* Polymin-Proto-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C1BC182172633100ECB55D /* Build configuration list for PBXNativeTarget "Polymin-Proto-1" */;
+			buildPhases = (
+				085B5AD50C5F7D50E715F736 /* [CP] Check Pods Manifest.lock */,
+				36C1BBEA2172632E00ECB55D /* Sources */,
+				36C1BBEB2172632E00ECB55D /* Frameworks */,
+				36C1BBEC2172632E00ECB55D /* Resources */,
+				D73C249EF895830544299ED6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polymin-Proto-1";
+			productName = "Polymin-Proto-1";
+			productReference = 36C1BBEE2172632E00ECB55D /* Polymin-Proto-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C1BC032172633000ECB55D /* Polymin-Proto-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C1BC1B2172633100ECB55D /* Build configuration list for PBXNativeTarget "Polymin-Proto-1Tests" */;
+			buildPhases = (
+				D0F95574036136C494D02682 /* [CP] Check Pods Manifest.lock */,
+				36C1BC002172633000ECB55D /* Sources */,
+				36C1BC012172633000ECB55D /* Frameworks */,
+				36C1BC022172633000ECB55D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C1BC062172633100ECB55D /* PBXTargetDependency */,
+			);
+			name = "Polymin-Proto-1Tests";
+			productName = "Polymin-Proto-1Tests";
+			productReference = 36C1BC042172633000ECB55D /* Polymin-Proto-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36C1BC0E2172633100ECB55D /* Polymin-Proto-1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C1BC1E2172633100ECB55D /* Build configuration list for PBXNativeTarget "Polymin-Proto-1UITests" */;
+			buildPhases = (
+				08080A1DAACDA58734105CAD /* [CP] Check Pods Manifest.lock */,
+				36C1BC0B2172633100ECB55D /* Sources */,
+				36C1BC0C2172633100ECB55D /* Frameworks */,
+				36C1BC0D2172633100ECB55D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C1BC112172633100ECB55D /* PBXTargetDependency */,
+			);
+			name = "Polymin-Proto-1UITests";
+			productName = "Polymin-Proto-1UITests";
+			productReference = 36C1BC0F2172633100ECB55D /* Polymin-Proto-1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C1BBE62172632E00ECB55D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tyler Angert";
+				TargetAttributes = {
+					36C1BBED2172632E00ECB55D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					36C1BC032172633000ECB55D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 36C1BBED2172632E00ECB55D;
+					};
+					36C1BC0E2172633100ECB55D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 36C1BBED2172632E00ECB55D;
+					};
+				};
+			};
+			buildConfigurationList = 36C1BBE92172632E00ECB55D /* Build configuration list for PBXProject "Polymin-Proto-1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36C1BBE52172632E00ECB55D;
+			productRefGroup = 36C1BBEF2172632E00ECB55D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C1BBED2172632E00ECB55D /* Polymin-Proto-1 */,
+				36C1BC032172633000ECB55D /* Polymin-Proto-1Tests */,
+				36C1BC0E2172633100ECB55D /* Polymin-Proto-1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C1BBEC2172632E00ECB55D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C1BBF42172632E00ECB55D /* art.scnassets in Resources */,
+				36C1BBFE2172633000ECB55D /* LaunchScreen.storyboard in Resources */,
+				36C1BBFB2172633000ECB55D /* Assets.xcassets in Resources */,
+				36C1BBF92172632E00ECB55D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C1BC022172633000ECB55D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C1BC0D2172633100ECB55D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08080A1DAACDA58734105CAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Polymin-Proto-1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		085B5AD50C5F7D50E715F736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Polymin-Proto-1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F95574036136C494D02682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Polymin-Proto-1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73C249EF895830544299ED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Polymin-Proto-1/Pods-Polymin-Proto-1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MusicTheorySwift/MusicTheorySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Pitchy/Pitchy.framework",
+				"${BUILT_PRODUCTS_DIR}/ReRxSwift/ReRxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MusicTheorySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pitchy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReRxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Polymin-Proto-1/Pods-Polymin-Proto-1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C1BBEA2172632E00ECB55D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C1BBF62172632E00ECB55D /* MainViewController.swift in Sources */,
+				36C1BC2621726D3800ECB55D /* Matrix+Extensions.swift in Sources */,
+				36C1BBF22172632E00ECB55D /* AppDelegate.swift in Sources */,
+				36457B6D21A2151A00ECA5BE /* Unit.swift in Sources */,
+				36C1BC222172649700ECB55D /* Node.swift in Sources */,
+				36FD8F3C21A4679600E9B079 /* Actions.swift in Sources */,
+				3690E66121A219660014848F /* Store.swift in Sources */,
+				36C1BC24217269D100ECB55D /* Connection.swift in Sources */,
+				36ECC1FB21800A200027609B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C1BC002172633000ECB55D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C1BC092172633100ECB55D /* Polymin_Proto_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C1BC0B2172633100ECB55D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C1BC142172633100ECB55D /* Polymin_Proto_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C1BC062172633100ECB55D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C1BBED2172632E00ECB55D /* Polymin-Proto-1 */;
+			targetProxy = 36C1BC052172633100ECB55D /* PBXContainerItemProxy */;
+		};
+		36C1BC112172633100ECB55D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C1BBED2172632E00ECB55D /* Polymin-Proto-1 */;
+			targetProxy = 36C1BC102172633100ECB55D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36C1BBF72172632E00ECB55D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C1BBF82172632E00ECB55D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36C1BBFC2172633000ECB55D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C1BBFD2172633000ECB55D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36C1BC162172633100ECB55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36C1BC172172633100ECB55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36C1BC192172633100ECB55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFBAC4312D91078B6954992 /* Pods-Polymin-Proto-1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "Polymin-Proto-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.Polymin-Proto-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36C1BC1A2172633100ECB55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AE076E0EBA226E68BEF09D /* Pods-Polymin-Proto-1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "Polymin-Proto-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.Polymin-Proto-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36C1BC1C2172633100ECB55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8E96437DFF802844D581F6 /* Pods-Polymin-Proto-1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "Polymin-Proto-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.Polymin-Proto-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polymin-Proto-1.app/Polymin-Proto-1";
+			};
+			name = Debug;
+		};
+		36C1BC1D2172633100ECB55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD37A1699A0CD5D23D6243B /* Pods-Polymin-Proto-1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "Polymin-Proto-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.Polymin-Proto-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polymin-Proto-1.app/Polymin-Proto-1";
+			};
+			name = Release;
+		};
+		36C1BC1F2172633100ECB55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DD089667DEA95495E71B2B /* Pods-Polymin-Proto-1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "Polymin-Proto-1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.Polymin-Proto-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Polymin-Proto-1";
+			};
+			name = Debug;
+		};
+		36C1BC202172633100ECB55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8E809244CBD20B370BD022 /* Pods-Polymin-Proto-1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "Polymin-Proto-1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.Polymin-Proto-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Polymin-Proto-1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C1BBE92172632E00ECB55D /* Build configuration list for PBXProject "Polymin-Proto-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C1BC162172633100ECB55D /* Debug */,
+				36C1BC172172633100ECB55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C1BC182172633100ECB55D /* Build configuration list for PBXNativeTarget "Polymin-Proto-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C1BC192172633100ECB55D /* Debug */,
+				36C1BC1A2172633100ECB55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C1BC1B2172633100ECB55D /* Build configuration list for PBXNativeTarget "Polymin-Proto-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C1BC1C2172633100ECB55D /* Debug */,
+				36C1BC1D2172633100ECB55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C1BC1E2172633100ECB55D /* Build configuration list for PBXNativeTarget "Polymin-Proto-1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C1BC1F2172633100ECB55D /* Debug */,
+				36C1BC202172633100ECB55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C1BBE62172632E00ECB55D /* Project object */;
+}

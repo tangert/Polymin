@@ -1,0 +1,43 @@
+PODS:
+  - AudioKit/Core (4.5.1)
+  - MusicTheorySwift (1.1.0)
+  - Pitchy (3.0.0)
+  - ReRxSwift (2.0.0):
+    - ReSwift (~> 4.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - ReSwift (4.0.1)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+
+DEPENDENCIES:
+  - AudioKit/Core
+  - MusicTheorySwift
+  - Pitchy
+  - ReRxSwift (~> 2.0)
+  - ReSwift
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AudioKit
+    - MusicTheorySwift
+    - Pitchy
+    - ReRxSwift
+    - ReSwift
+    - RxCocoa
+    - RxSwift
+
+SPEC CHECKSUMS:
+  AudioKit: 8154f343a24daed3ab77b76a0a45739c5f3147e5
+  MusicTheorySwift: 555d61fc174c36c7cb1a41cf20b54628ba6b3e32
+  Pitchy: 15407e4425b6d88fa3e7eef8927ba659fab52d7a
+  ReRxSwift: a01b6dc4e9febabfa8c74b97bf8b38bd2007af5b
+  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+
+PODFILE CHECKSUM: 65a56e2a232b15ec98876322545b0551c9d6b738
+
+COCOAPODS: 1.5.3
